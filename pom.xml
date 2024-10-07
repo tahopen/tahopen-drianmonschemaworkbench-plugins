@@ -17,13 +17,13 @@
     <name>Tahopen Corporation</name>
     <url>http://www.tahopen.org</url>
   </organization>
-
+<!--
   <scm>
     <connection>scm:https://github.com/pentaho/pentaho-mondrianschemaworkbench-plugins.git</connection>
     <developerConnection>scm:https://github.com/pentaho/pentaho-mondrianschemaworkbench-plugins.git</developerConnection>
     <url>https://github.com/pentaho/pentaho-mondrianschemaworkbench-plugins</url>
   </scm>
-
+-->
   <properties>
     <source.jdk.version>1.6</source.jdk.version>
     <target.jdk.version>1.6</target.jdk.version>
@@ -120,37 +120,11 @@
   </dependencies>
 
   <repositories>
-  <!--
-    <repository>
-      <id>pentaho-public</id>
-      <name>Pentaho Public</name>
-      <url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/</url>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>daily</updatePolicy>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>interval:15</updatePolicy>
-      </snapshots>
-    </repository>
-    -->
+
   </repositories>
 
   <pluginRepositories>
-  <!--
-    <pluginRepository>
-      <id>pentaho-public-plugins</id>
-      <name>Pentaho Public Plugins</name>
-      <url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-    </pluginRepository>
-    -->
+
   </pluginRepositories>
 
 

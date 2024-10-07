@@ -29,9 +29,9 @@ import org.pentaho.mondrian.publish.Messages;
 import org.pentaho.mondrian.publish.PublishSchemaPluginParent;
 import org.pentaho.mondrian.publish.PublishToServerCommand;
 
-import mondrian.gui.SchemaExplorer;
-import mondrian.gui.Workbench;
-import mondrian.gui.WorkbenchMenubarPlugin;
+import drianmon.gui.SchemaExplorer;
+import drianmon.gui.Workbench;
+import drianmon.gui.WorkbenchMenubarPlugin;
 
 /**
  * This class acts as a bridge from Mondrian Schema Workbench to the Mondrian Publishing 
